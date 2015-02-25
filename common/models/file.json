@@ -1,0 +1,23 @@
+{
+  "name": "file",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "extension": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
